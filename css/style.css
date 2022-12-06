@@ -1,3 +1,49 @@
+/* Global */
+/* Icons */
+.fa-regular {
+  width: 68px;
+  height: 67px;
+  color: #fed136;
+  background-color: #ffffff;
+}
 
+.fa-basket-shopping {
+  width: 40px;
+  height: 39px;
+  background-color: #fed136;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.fa-laptop-medical {
+  width: 41px;
+  height: 35px;
+  background-color: #fed136;
+}
+
+.fa-lock-keyhole {
+  width: 29px;
+  height: 38px;
+  background-color: #fed136;
+}
+
+.fa-brands {
+  color: #fed136;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-portfolio h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+}
+
+.card-portfolio p {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBVUEsVUFBQTtBQUVBO0VBQ0ksV0FBQTtFQUNBLFlBQUE7RUFDQSxjQVRXO0VBVVgseUJBUlM7QUNEYjs7QURZQTtFQUNJLFdBQUE7RUFDQSxZQUFBO0VBQ0EseUJBaEJXO0FDT2Y7O0FEWUE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHlCQXRCVztBQ2FmOztBRFlBO0VBQ0ksV0FBQTtFQUNBLFlBQUE7RUFDQSx5QkE1Qlc7QUNtQmY7O0FEWUE7RUFDSSxjQWhDVztBQ3VCZjs7QURZQTtFQUNJLFlBQUE7RUFDQSxXQUFBO0VBQ0Esb0JBQUE7S0FBQSxpQkFBQTtBQ1RKOztBRFlBO0VBQ0kscUNBOUNRO0VBK0NSLGVBQUE7QUNUSjs7QURZQTtFQUNJLGlDQWpEUTtFQWtEUixlQUFBO0FDVEoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

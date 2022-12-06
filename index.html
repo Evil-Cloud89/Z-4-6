@@ -13,90 +13,115 @@
     <title>Projekt Golden</title>
 </head>
 <body>
-    <nav>
-        <p>Golden</p>
-        <a href="#">HOME</a>
-        <a href="#">SERVICES</a>
-        <a href="#">PORTFOLIO</a>
-        <a href="#">ABOUT</a>
-        <a href="#">CONTACT</a>
-    </nav>
     <div class="header">
-        <div class="container">
-            <h2>Welcome To Our Studio!</h2>
-            <h1>IT'S NICE TO MEET YOU</h1>
-            <button type="button" class="btn btn-primary btn-lg">Large button</button>
-            <img src="https://i.imgur.com/5V4bWmC.png" alt="background">
+        <img class="background" src="https://i.imgur.com/5V4bWmC.png" alt="background">
+        <div class="container py-3">
+            <nav class="row">
+                <div class="col-lg-2">
+                    <p>Golden</p>
+                </div>
+                <div class="col-lg-10">
+                    <a class="col-2" href="#">HOME</a>
+                    <a class="col-2" href="#">SERVICES</a>
+                    <a class="col-2" href="#">PORTFOLIO</a>
+                    <a class="col-2" href="#">ABOUT</a>
+                    <a class="col-2" href="#">CONTACT</a>
+                </div>
+            </nav>
+            <div class="intro">
+                <h2>Welcome To Our Studio!</h2>
+                <h1>IT'S NICE TO MEET YOU</h1>
+                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            </div>
         </div>
     </div>
-    <div class="services">
-        <div>
+    <div class="services py-3">
+        <div class="container">
             <h1>SERVICES</h1>
             <p>We are best in our crafts!</p>
-        </div>
-        <div>
-            <div class="card-service">
-                <i class="fa-regular fa-circle"></i>
-                <i class="fa-solid fa-basket-shopping"></i>
-                <h2>E-commerce</h2>
-            </div>
-            <div class="card-service">
-                <i class="fa-regular fa-circle"></i>
-                <i class="fa-solid fa-laptop-medical"></i>
-                <h2>Responsive Web</h2>
-            </div>
-            <div class="card-service">
-                <i class="fa-regular fa-circle"></i>
-                <i class="fa-solid fa-lock-keyhole"></i>
-                <h2>Web Security</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <h2>E-commerce</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-solid fa-laptop-medical"></i>
+                    <h2>Responsive Web</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-solid fa-lock-keyhole"></i>
+                    <h2>Web Security</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
         </div>
     </div>
     <div>
-        <div>
+        <div class="container py-3">
             <h1>OUR PORTFOLIO</h1>
             <p>We are proud of our work!</p>
         </div>
         <div class="container">
-            <div class="card-portfolio">
-                <img src="https://i.imgur.com/AxQ9RG1.png" alt="portfolio-1">
-                <h3>Ebony &amp; Ivory</h3>
-                <p>Branding</p>
+            <div class="row py-3">
+                <div class="col-md-4">
+                    <div class="card-portfolio">
+                        <img src="https://i.imgur.com/AxQ9RG1.png" alt="portfolio-1">
+                        <h3>Ebony &amp; Ivory</h3>
+                        <p>Branding</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-portfolio">
+                        <img src="https://i.imgur.com/WMbVQZ9.png" alt="portfolio-2">
+                        <h3>Smart Stationary</h3>
+                        <p>Print Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-portfolio">
+                        <img src="https://i.imgur.com/bhrmYIt.png" alt="portfolio-3">
+                        <h3>Clever Poster</h3>
+                        <p>Print Design</p>
+                    </div>
+                </div>
             </div>
-            <div class="card-portfolio">
-                <img src="https://i.imgur.com/WMbVQZ9.png" alt="portfolio-2">
-                <h3>Smart Stationary</h3>
-                <p>Print Design</p>
-            </div>
-            <div class="card-portfolio">
-                <img src="https://i.imgur.com/bhrmYIt.png" alt="portfolio-3">
-                <h3>Clever Poster</h3>
-                <p>Print Design</p>
-            </div>
-            <div class="card-portfolio">
-                <img src="https://i.imgur.com/sfkdMtq.png" alt="portfolio-4">
-                <h3>Vinyl Record</h3>
-                <p>Product Mock-Up</p>
-            </div>
-            <div class="card-portfolio">
-                <img src="https://i.imgur.com/rCC5IqE.png" alt="portfolio-5">
-                <h3>Treehouse Template</h3>
-                <p>Web Design</p>
-            </div>
-            <div class="card-portfolio">
-                <img src="https://i.imgur.com/JxPVZXt.png" alt="portfolio-6">
-                <h3>Burned Logo</h3>
-                <p>Branding</p>
+            <div class="row py-3">
+                <div class="col-md-4">
+                    <div class="card-portfolio">
+                        <img src="https://i.imgur.com/sfkdMtq.png" alt="portfolio-4">
+                        <h3>Vinyl Record</h3>
+                        <p>Product Mock-Up</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-portfolio">
+                        <img src="https://i.imgur.com/rCC5IqE.png" alt="portfolio-5">
+                        <h3>Treehouse Template</h3>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-portfolio">
+                        <img src="https://i.imgur.com/JxPVZXt.png" alt="portfolio-6">
+                        <h3>Burned Logo</h3>
+                        <p>Branding</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer py-3">
         <div class="container">
-            <div class="row-footer">
-                <div>
+            <div class="row">
+                <div class="col-md-4">
                     <p>@ Copyright 2014 FreebiesXpress.com</p>
                 </div>
-                <div>
+                <div class="col-md-8">
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-facebook-f"></i>
                     <i class="fa-brands fa-pinterest-p"></i>
