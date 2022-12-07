@@ -8,49 +8,181 @@ $color-golden: #fed136;
 $color-portfolio: #f7f7f7;
 $color-main: #ffffff;
 
-/* Icons */
-
-.fa-regular {
-    width: 68px;
-    height: 67px;
-    color: $color-golden;
-    background-color: $color-main;
+body {
+    margin: 0;
 }
 
-.fa-basket-shopping {
-    width: 40px;
-    height: 39px;
-    background-color: $color-golden;
+section {
+    padding: 70px 0;
 }
 
-.fa-laptop-medical {
-    width: 41px;
-    height: 35px;
-    background-color: $color-golden;
-}
-
-.fa-lock-keyhole {
-    width: 29px;
-    height: 38px;
-    background-color: $color-golden;
-}
-
-.fa-brands {
-    color: $color-golden;
-}
-
-.background {
-    height: 100%;
-    width: 100%;
+.container {
+    max-width: 1200px;
     object-fit: cover;
 }
 
-.card-portfolio h3 {
+
+/* Icons */
+
+
+/* Navigation */
+
+.navigation {
+    background-image: url('https://i.imgur.com/5V4bWmC.png');
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}
+
+.navigation-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-row h1 {
+    font-family: $font-decorative;
+    color: $color-golden;
+    font-size: 36px;
+}
+
+.navigation-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     font-family: $font-main;
+    font-size: 18px;
+}
+
+.navigation-links a {
+    text-decoration: none;
+    color: $color-main;
+    padding: 0 10px;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 70px;
+    color: $color-main;
+}
+
+.intro h2 {
+    font-family: $font-decorative;
+    font-size: 40px;
+}
+
+.intro h1 {
+    font-family: $font-main;
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+
+.button {
+    font-family: $font-main;
+    font-size: 21px;
+    font-weight: 700;
+    color: $color-main;
+    text-decoration: none;
+    border: 2px solid $color-golden;
+    background-color: $color-golden;
+    padding: 15px 25px;
+}
+
+/* Services */
+
+.services-title h1 {
+    text-align: center;
+    font-family: $font-main;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.services-title p {
+    text-align: center;
+    font-family: $font-decorative;
+    font-size: 16px;
+}
+
+.services-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.services-row h2 {
+    text-align: center;
+    font-family: $font-text;;
     font-size: 21px;
 }
 
-.card-portfolio p {
-    font-family: $font-text;
-    font-size: 16px;
+.services-row p {
+    text-align: center;
+    font-family: $font-text;;
+    font-size: 14px;
 }
+
+.card {
+    flex: 0 0 33.333%;
+    text-align: center;
+}
+
+.card i {
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    color: $color-golden;
+    border: 4px solid $color-golden;
+    border-radius: 70px;
+    padding: 40px;
+}
+
+/* Portfolio */
+
+.portfolio {
+    text-align: center;
+    background-color: $color-portfolio;
+}
+
+.portfolio-title {
+    padding-bottom: 40px;
+}
+
+.portfolio-title h1 {
+    font-family: $font-main;
+    font-size: 50px;
+}
+
+.portfolio-title p {
+    font-family: $font-decorative;
+    font-size: 20px;
+}
+
+.portfolio-row {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-card {
+    text-align: center;
+    background-color: $color-main;
+    max-width: 291px;
+    height: 391px;
+    margin: 30px;
+}
+
+.portfolio-card h3 {
+    font-family: $font-main;
+    font-size: 18px;
+}
+
+.portfolio-card p {
+    font-family: $font-text;
+    font-size: 15px;
+}
+
+/* Footer */
+

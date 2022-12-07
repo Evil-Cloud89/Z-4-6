@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="vendor/bootstrap-grid.css">
-    <link rel="stylesheet" href="sass/style.scss">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,122 +13,106 @@
     <title>Projekt Golden</title>
 </head>
 <body>
-    <div class="header">
-        <img class="background" src="https://i.imgur.com/5V4bWmC.png" alt="background">
-        <div class="container py-3">
-            <nav class="row">
-                <div class="col-lg-2">
-                    <p>Golden</p>
+    <nav class="navigation">
+        <div class="container">
+            <div class="navigation-row">
+                <h1>Golden</h1>
+                <div class="navigation-links">
+                    <a href="#">HOME</a>
+                    <a href="#">SERVICES</a>
+                    <a href="#">PORTFOLIO</a>
+                    <a href="#">ABOUT</a>
+                    <a href="#">CONTACT</a>
                 </div>
-                <div class="col-lg-10">
-                    <a class="col-2" href="#">HOME</a>
-                    <a class="col-2" href="#">SERVICES</a>
-                    <a class="col-2" href="#">PORTFOLIO</a>
-                    <a class="col-2" href="#">ABOUT</a>
-                    <a class="col-2" href="#">CONTACT</a>
-                </div>
-            </nav>
-            <div class="intro">
-                <h2>Welcome To Our Studio!</h2>
-                <h1>IT'S NICE TO MEET YOU</h1>
-                <button type="button" class="btn btn-primary btn-lg">Large button</button>
             </div>
         </div>
-    </div>
-    <div class="services py-3">
+        <div class="intro">
+            <h2>Welcome To Our Studio!</h2>
+            <h1>IT'S NICE TO MEET YOU</h1>
+            <a href="#" class="button">TELL ME MORE</a>
+        </div>
+    </nav>
+    <section class="services">
         <div class="container">
-            <h1>SERVICES</h1>
-            <p>We are best in our crafts!</p>
-            <div class="row">
-                <div class="col-md-4">
-                    <i class="fa-regular fa-circle"></i>
+            <div class="services-title">
+                <h1>SERVICES</h1>
+                <p>We are best in our crafts!</p>
+            </div>
+            <div class="services-row">
+                <div class="card">
                     <i class="fa-solid fa-basket-shopping"></i>
                     <h2>E-commerce</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, ut magnam? Fuga excepturi enim consequuntur aut incidunt atque distinctio ipsa iste molestias architecto perspiciatis dolor animi, autem totam suscipit sapiente.</p>
                 </div>
-                <div class="col-md-4">
-                    <i class="fa-regular fa-circle"></i>
+                <div class="card">
                     <i class="fa-solid fa-laptop-medical"></i>
                     <h2>Responsive Web</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, ut magnam? Fuga excepturi enim consequuntur aut incidunt atque distinctio ipsa iste molestias architecto perspiciatis dolor animi, autem totam suscipit sapiente.</p>
                 </div>
-                <div class="col-md-4">
-                    <i class="fa-regular fa-circle"></i>
-                    <i class="fa-solid fa-lock-keyhole"></i>
+                <div class="card">
+                    <i class="fa-solid fa-lock"></i>
                     <h2>Web Security</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, ut magnam? Fuga excepturi enim consequuntur aut incidunt atque distinctio ipsa iste molestias architecto perspiciatis dolor animi, autem totam suscipit sapiente.</p>
                 </div>
             </div>
         </div>
-    </div>
-    <div>
-        <div class="container py-3">
-            <h1>OUR PORTFOLIO</h1>
-            <p>We are proud of our work!</p>
-        </div>
+    </section>
+    <section class="portfolio">
         <div class="container">
-            <div class="row py-3">
-                <div class="col-md-4">
-                    <div class="card-portfolio">
-                        <img src="https://i.imgur.com/AxQ9RG1.png" alt="portfolio-1">
-                        <h3>Ebony &amp; Ivory</h3>
-                        <p>Branding</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card-portfolio">
-                        <img src="https://i.imgur.com/WMbVQZ9.png" alt="portfolio-2">
-                        <h3>Smart Stationary</h3>
-                        <p>Print Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card-portfolio">
-                        <img src="https://i.imgur.com/bhrmYIt.png" alt="portfolio-3">
-                        <h3>Clever Poster</h3>
-                        <p>Print Design</p>
-                    </div>
-                </div>
+            <div class="portfolio-title">
+                <h1>OUR PORTFOLIO</h1>
+                <p>We are proud of our work!</p>
             </div>
-            <div class="row py-3">
-                <div class="col-md-4">
-                    <div class="card-portfolio">
-                        <img src="https://i.imgur.com/sfkdMtq.png" alt="portfolio-4">
-                        <h3>Vinyl Record</h3>
-                        <p>Product Mock-Up</p>
-                    </div>
+            <div class="portfolio-row">
+                <div class="portfolio-card">
+                    <img src="https://i.imgur.com/AxQ9RG1.png" alt="portfolio-1">
+                    <h3>Ebony &amp; Ivory</h3>
+                    <p>Branding</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="card-portfolio">
-                        <img src="https://i.imgur.com/rCC5IqE.png" alt="portfolio-5">
-                        <h3>Treehouse Template</h3>
-                        <p>Web Design</p>
-                    </div>
+                <div class="portfolio-card">
+                    <img src="https://i.imgur.com/WMbVQZ9.png" alt="portfolio-2">
+                    <h3>Smart Stationary</h3>
+                    <p>Print Design</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="card-portfolio">
-                        <img src="https://i.imgur.com/JxPVZXt.png" alt="portfolio-6">
-                        <h3>Burned Logo</h3>
-                        <p>Branding</p>
-                    </div>
+                <div class="portfolio-card">
+                    <img src="https://i.imgur.com/bhrmYIt.png" alt="portfolio-3">
+                    <h3>Clever Poster</h3>
+                    <p>Print Design</p>
+                </div>
+            </div>    
+            <div class="portfolio-row">
+                <div class="portfolio-card">
+                    <img src="https://i.imgur.com/sfkdMtq.png" alt="portfolio-4">
+                    <h3>Vinyl Record</h3>
+                    <p>Product Mock-Up</p>
+                </div>
+                <div class="portfolio-card">
+                    <img src="https://i.imgur.com/rCC5IqE.png" alt="portfolio-5">
+                    <h3>Treehouse Template</h3>
+                    <p>Web Design</p>
+                </div>
+                <div class="portfolio-card">
+                    <img src="https://i.imgur.com/JxPVZXt.png" alt="portfolio-6">
+                    <h3>Burned Logo</h3>
+                    <p>Branding</p>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="footer py-3">
+    </section>
+    <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
+            <div class="footer-row">
+                <div class="footer-title">
                     <p>@ Copyright 2014 FreebiesXpress.com</p>
                 </div>
-                <div class="col-md-8">
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-pinterest-p"></i>
-                    <i class="fa-brands fa-google-plus-g"></i>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
